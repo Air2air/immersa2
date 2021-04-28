@@ -1,5 +1,6 @@
 import React from "react";
 import { Col, Nav } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 import { GoAlert } from "react-icons/go";
 import { AiFillHome } from "react-icons/ai";
@@ -19,18 +20,18 @@ export default class Sidebar extends React.Component {
           </div>
 
           <Nav defaultActiveKey="/" className="flex-column">
-            <Nav.Link exact href="/" className="py-3">
+            <Link to="/" className="p-3">
               <AiFillHome className="mr-3" style={{ fill: "#AAA" }} />
               Home
-            </Nav.Link>
-            <Nav.Link exact href="/issues" className="py-3">
+            </Link>
+            <Link to="/issues" className="p-3">
               <GoAlert className="mr-3" style={{ fill: "#AAA" }} />
               Issues
-            </Nav.Link>
-            <Nav.Link exact href="/dashboard" className="py-3">
+            </Link>
+            <Link to="/dashboard" className="p-3">
               <RiDashboardFill className="mr-3" style={{ fill: "#AAA" }} />
               Dashboard
-            </Nav.Link>
+            </Link>
           </Nav>
         </Col>
       </>

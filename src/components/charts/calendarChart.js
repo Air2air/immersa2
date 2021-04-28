@@ -4,7 +4,7 @@ import { ResponsiveCalendar } from "@nivo/calendar";
 const styles = {
   root: {
     color: "#fff",
-    fontFamily: "Titillium Web, sans-serif",
+    fontFamily: "Ubuntu, sans-serif",
     textAlign: "center",
     position: "relative",
     width: "100%",

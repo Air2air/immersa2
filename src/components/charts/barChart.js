@@ -3,7 +3,7 @@ import { ResponsiveBar } from "@nivo/bar";
 
 const styles = {
   root: {
-    fontFamily: "Titillium Web, sans-serif",
+    fontFamily: "Ubuntu, sans-serif",
     textAlign: "center",
     position: "relative",
     width: "100%",

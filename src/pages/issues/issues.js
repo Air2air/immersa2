@@ -111,6 +111,7 @@ export default function IssuesPage() {
         </Col>
       </Row>
       <div className="categories">{eachDepartment}</div>
+      <p className="mt-4">Click a department to see more.</p>
     </>
   );
 }

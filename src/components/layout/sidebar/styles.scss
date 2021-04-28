@@ -1,7 +1,7 @@
 .sidebar {
   font-size: 0.93em;
   background: #eee;
-  height: 100vh!important;
+  height: 100vh !important;
   overflow: hidden;
   .header-logo {
     display: flex;
@@ -11,13 +11,16 @@
       height: 24px;
     }
   }
-  .nav-link {
-    background:none;
-    border-radius: 4px;
-    color:#888;
-    &:hover {
-      color:#000;
-      background:#ddd;
+  .nav {
+    a {
+      background: none;
+      border-radius: 4px;
+      color: #888;
+      text-decoration: none;
+      &:hover {
+        color: #000;
+        background: #ddd;
+      }
     }
   }
 }
