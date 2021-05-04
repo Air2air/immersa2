@@ -16,7 +16,7 @@ import "./styles/styles.scss";
 const App = () => (
   <>
     <React.StrictMode>
-      <HashRouter basename="/immersa2/">
+      <HashRouter basename="/">
         <Container fluid>
           <Row>
             <Sidebar />
